@@ -5,7 +5,7 @@ export const inventoryData = [
         img: require( "../../../Assets/img/rosa-motosport/ZX4r/zx4r-side-shot.png"),  
         category: "Beginner"
     },
-    /*{
+    {
         id: '65c02dd9ccd97d2d7a420666',
         title: "ZX4RR",
         img: require( "../../../Assets/img/rosa-motosport/ZX4rr/zx4rr-side-shot.png"),  
@@ -52,5 +52,5 @@ export const inventoryData = [
         title: "H2R",
         img: require( "../../../Assets/img/rosa-motosport/H2R/h2r-sideshot.png"),  
         category: "Hyper"
-    },*/
+    },
 ]

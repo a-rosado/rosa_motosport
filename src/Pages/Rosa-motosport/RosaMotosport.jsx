@@ -86,17 +86,10 @@ const CorporatePage = (props) => {
               <h1 className="text-xlg pb-24 font-semibold text-[#fff] text-shadow-large font-serif landscape:md:mb-[70px]">
                 Rosa Motosports
               </h1>
-              {/* Modal Component Start */}
-              {/* <CustomModal.Wrapper
-              >
-              </CustomModal.Wrapper> */}
-              {/* Modal Component End */}
             </Col>
           </Row>
         </Container>
       </m.section>
-      {/* Section End */}
-      {/* Section Start */}
       <m.section
         className="py-[160px] lg:py-[120px] md:py-[95px] sm:py-[80px] xs:py-[50px]"
         {...fadeIn}

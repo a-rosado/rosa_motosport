@@ -16,11 +16,11 @@ import MessageBox from '../../Components/MessageBox/MessageBox';
 import Overlap from '../../Components/Overlap/Overlap';
 import FooterStyle01 from '../../Components/Footers/FooterStyle01';
 import { fadeIn } from '../../Functions/GlobalAnimations'
-import { resetForm, sendEmail } from '../../Functions/Utilities';
+// import { resetForm, sendEmail } from '../../Functions/Utilities';
 import SideButtons from "../../Components/SideButtons";
 
 // images
-import Logo from "../../Assets/img/rosa-motosport/Rosa-logo.png"
+// import Logo from "../../Assets/img/rosa-motosport/Rosa-logo.png"
 
 // data
 import axios from 'axios';

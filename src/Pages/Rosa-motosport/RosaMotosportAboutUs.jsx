@@ -15,7 +15,7 @@ import { Link as ScrollTo } from "react-scroll"
 // images 
 import R1MTrack02 from "../../Assets/img/rosa-motosport/r1/2024-R1MTRACK02.jpg"
 import H2RTrack02 from "../../Assets/img/rosa-motosport/zx10r/H2RTRACK02.png"
-import Logo from "../../Assets/img/rosa-motosport/Rosa-logo.png"
+// import Logo from "../../Assets/img/rosa-motosport/Rosa-logo.png"
 
 
 const AboutUsPage = (props) => {

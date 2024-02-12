@@ -10,7 +10,7 @@ import Lightbox from 'react-18-image-lightbox';
 
 // Components
 import Header, { HeaderCart, HeaderLanguage, HeaderNav, Menu, SearchBar } from '../../../Components/Header/Header'
-import RosaShop from './RosaShop';
+// import RosaShop from './RosaShop';
 import FooterStyle01 from "../../../Components/Footers/FooterStyle01";
 // import { resetForm } from "../../../Functions/Utilities";
 import SideButtons from "../../../Components/SideButtons";
@@ -71,6 +71,12 @@ useEffect(() => {
     axios.get('http://localhost:5000/smallsupersports/65bb1494dc202575b9368097').then(( response => 
     {setproduct(response.data)
         console.log(response.data)}))
+       /* axios.get('http://localhost:5000/smallsupersports/65bb1545dc202575b9368099').then(( response => 
+     {setproduct(response.data)
+         console.log(response.data)}))
+        axios.get('http://localhost:5000/smallsupersports/65c02dd9ccd97d2d7a420666').then(( response => 
+        {setproduct(response.data)
+            console.log(response.data)}))*/
         
         // Correctly extract data from each response and update state
        
@@ -197,7 +203,7 @@ useEffect(() => {
                   <ul>
                     <li><Link aria-label="homepage-link" to="/">Home</Link></li>
                     <li><Link aria-label="shop-link" to="/Rosa-motorsport-RosaMotosportInventory">Inventory</Link></li>
-                    <li>ZX4R</li>
+                    <li>{product.model}</li>
                   </ul>
                 </div>
                 <div className="flex items-center my-14 md:my-6">
